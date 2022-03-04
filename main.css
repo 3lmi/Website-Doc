@@ -1,84 +1,75 @@
-* {
-    background-color: antiquewhite;
+body {
+    margin: 20px 40px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    background-color: wheat;
 }
 
-nav {
-    text-align: center;
-    font-size: 2em;
-    font-weight: bolder;
-    border-bottom: 1px solid yellowgreen;
+#navbar {
     background-color: brown;
-
-}
-
-nav ul {
-    margin: 0;
-    background-color: brown;
-}
-
-nav li {
-    display: inline;
-    background-color: blue;
-    /* justify-content: space-evenly; */
-    padding: 0.5em;
-    text-decoration: none;
-    
-}
-
-nav a {
-    display: inline-block;
-    padding: 0 em;
-    color: chartreuse;
-    text-decoration: none;
-    background-color: cadetblue;
-
-}
-
-nav a:hover {
-
-    background-color: coral;
-
-
-}
-.title {
+    height: 90px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    background-color: black;
-    color: blue;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 220px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
 }
 
-#subtitle {
+.brandname {
+    color: rgb(81, 196, 91);
+    font-size: 30px;
+    font-family: cursive;
+}
 
-    color: blueviolet;
-    font-size: medium;
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar ul li {
+    padding: 10px 30px;
+}
+
+#navbar ul li a {
+    color: rgb(81, 196, 91);
+    text-decoration: none;  
+    font-size: 20px;
+}
+
+#navbar ul li a:hover {
+    color: rgb(71, 71, 224);
+}
+
+.subtitle {
+    text-align: center;
+    color: rgb(81, 196, 91);
+    font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
-    text-align: left;
+    font-weight: bolder;
 }
 
-header {
-
-    background-color: crimson;
-    background-image: url('image/headimage.jpg');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 260px;
+.address {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 
 }
 
+.about_image {
+    width: 750px;
+    height: 750px;
+    margin: auto;
+}
 
-.titleimage { 
-
-    float: inline-end;
-    height: 200px;
-    width: 150px;
+.article_image {
+    width: 750px;
+    height: 550px;
     margin: auto;
 
 }
 
+
+
+ 
